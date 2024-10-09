@@ -1,0 +1,144 @@
+body {
+    max-width: 1200px;
+}
+
+.header {
+    background-color: black;
+    border: solid black;
+    margin-bottom: 15px;
+}
+
+.navbar  {      
+    background-color: rgb(59, 60, 88);
+    display: flex;    
+    margin: 15px;    
+}
+
+.navitems {
+    margin: 15px;
+    display: flex;
+    flex-grow: 1;
+    gap: 20px;
+    justify-content: space-around; 
+}
+
+.logo, .nav, .social {
+    background-color: rgb(168, 71, 71);
+    padding: 5px;   
+       
+}
+
+.logo {
+    order: 1;
+    flex-grow: 1;
+    
+}
+.nav {
+    order: 2;
+    flex-grow: 2;
+    
+}
+.social {
+    order: 3;
+    flex-grow: 1;    
+}
+
+.banner  {
+    margin: 15px;   
+    background-color: rgb(255, 123, 0);
+    display: flex;
+}
+
+h1 {
+    background-color: rgb(255, 230, 0);
+    flex-grow: 1;
+    margin: 15px;
+    padding-left: 10px;
+}
+
+.main {
+    background-color: black;
+    border: solid black;
+    margin-bottom: 15px;    
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.content {
+    order: 1;
+    flex-grow: 2;
+    flex-basis: 0;    
+    display: flex;               
+    margin: 15px;
+    background-color: rgb(94, 81, 108);    
+}
+
+.contentitems {
+    margin: 15px;   
+    display: flex;  
+    flex-flow: row wrap; 
+    flex: 1 0 35%;  
+    gap: 0 20px;  
+    justify-content: space-around; 
+}
+
+.article {
+    background-color: rgb(0, 115, 255);    
+    flex: 1 0 35%;    
+    padding: 10px;
+    /* margin: 10px; */ 
+}
+
+
+.navigation {
+    order: 5;
+    background-color: rgb(55, 205, 255);
+    flex: 1 0 35%;   
+    /* margin: 10px; */ 
+    padding: 10px;    
+}
+
+.a1 {
+    order: 1;   
+    
+}
+.a2 {
+    order: 2; 
+    
+}
+.a3 {
+    order: 3;  
+    
+}
+.a4 {
+    order: 4;  
+    
+}
+
+.sidebar {
+    order: 2;
+    flex-grow: 1;
+    flex-basis: 0;
+    border: solid black;  
+    border-width: 15px 15px 15px 0;
+    background-color: rgb(215, 57, 57);    
+}
+
+.publi {
+    background-color: rgb(251, 222, 77);    
+    margin: 15px;
+    padding: 10px;
+}
+
+.footerdiv {
+    background-color: black;
+    border: solid black;
+    margin-bottom: 15px;      
+}
+
+.footer {
+    background-color: rgb(255, 246, 168);
+    flex-grow: 1;
+    margin: 15px;
+    padding: 10px;
+}
