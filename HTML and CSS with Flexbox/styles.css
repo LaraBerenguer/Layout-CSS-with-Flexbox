@@ -142,3 +142,36 @@ h1 {
     margin: 15px;
     padding: 10px;
 }
+
+/* Tablet */
+
+@media (max-width: 992px) {   
+    
+    .navitems {
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        gap: 20px;
+        justify-content: space-around; 
+    }
+
+    .main {
+        background-color: black;
+        border: solid black;
+        margin-bottom: 15px;    
+        display: flex;
+        flex-flow: row wrap;
+        flex-direction: column;
+    }
+
+    .sidebar {
+        order: 2;
+        flex-grow: 1;
+        flex-basis: 0;
+        border: solid black;  
+        border-width: 15px;
+        background-color: rgb(215, 57, 57);    
+    }    
+}
+    
