@@ -30,9 +30,21 @@ body {
 
 .logo {
     order: 1;
-    flex-grow: 1;
-    
+    flex-grow: 1;       
 }
+
+@keyframes pop {
+    100% {
+        scale: 115%;
+        background-color: rgb(255, 0, 170);
+        cursor: pointer;
+    }
+}
+
+.logo:hover {
+    animation: pop 0.5s linear forwards;
+}
+
 .nav {
     order: 2;
     flex-grow: 2;
